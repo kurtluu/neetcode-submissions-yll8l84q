@@ -17,3 +17,4 @@ class Solution:
             return dfs(left, node.left, node.val) and dfs(node.val, node.right, right)
 
         return dfs(float("-inf"), root, float("inf"))
+    
